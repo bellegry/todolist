@@ -8,14 +8,40 @@ body {
   background-color: #ececec;
 }
 .todo {
-  width: 300px;
-  height: 500px;
-  margin: 20% auto;
+  width: 250px;
+  height: 400px;
+  margin: 30% auto;
   background-color: #fff;
+  padding: 40px 20px;
+}
+.todo div {
+  margin: 10px auto;
+}
+.todo .search {
+  position: relative;
 }
 button {
   box-sizing: border-box;
-  border: #fff;
+  border: 1px solid #c8c8c8;
   background-color: #fff;
   font-size: 16px;
+  position: absolute;
+  right: 0;
+  padding: 0 5px;
+}
+.list {
+  position: flex;
+  margin: 0 auto;
+}
+.list div{
+  margin: 10px 0;
+  position: relative;
+}
+.deleteBtn {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+.list .on {
+  text-decoration-line: line-through;
 }
